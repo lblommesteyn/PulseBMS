@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased;
+  }
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  @apply bg-surface/80 backdrop-blur-md border border-white/5;
+}
+
+.glass-card {
+  @apply glass rounded-xl p-6 transition-all duration-300 hover:border-primary/30;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primaryGlow;
+}
