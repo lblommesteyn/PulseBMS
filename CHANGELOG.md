@@ -1292,3 +1292,4 @@
 - docs(db): update readme (2025-10-23T08:09:09.012283)
 - refactor(battery-model): refactor codebase (2025-10-23T09:53:09.012283)
 - test(websocket): fix typo (2025-10-23T11:28:09.012283)
+- fix(mqtt): improve error handling (2025-10-23T13:01:09.012283)
