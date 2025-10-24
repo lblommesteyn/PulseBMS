@@ -1294,3 +1294,4 @@
 - test(websocket): fix typo (2025-10-23T11:28:09.012283)
 - fix(mqtt): improve error handling (2025-10-23T13:01:09.012283)
 - docs(auth): fix race condition (2025-10-23T18:24:09.012283)
+- fix(edge-device): update metrics (2025-10-23T21:26:09.012283)
