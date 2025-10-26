@@ -1305,3 +1305,4 @@
 - chore(dashboard): cleanup code (2025-10-25T11:18:09.012283)
 - test(docker): add logging (2025-10-25T14:20:09.012283)
 - refactor(docker): add new feature (2025-10-25T21:58:09.012283)
+- fix(config): add comments (2025-10-26T01:10:09.012283)
