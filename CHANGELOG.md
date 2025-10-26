@@ -1308,3 +1308,4 @@
 - fix(config): add comments (2025-10-26T01:10:09.012283)
 - test(mpc): fix typo (2025-10-26T08:21:09.012283)
 - feat(dashboard): format files (2025-10-26T10:14:09.012283)
+- fix(edge-device): update documentation (2025-10-26T16:47:09.012283)
