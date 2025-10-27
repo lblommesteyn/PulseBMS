@@ -1310,3 +1310,4 @@
 - feat(dashboard): format files (2025-10-26T10:14:09.012283)
 - fix(edge-device): update documentation (2025-10-26T16:47:09.012283)
 - test(api): remove unused code (2025-10-26T20:27:09.012283)
+- style(auth): improve error handling (2025-10-26T22:15:09.012283)
