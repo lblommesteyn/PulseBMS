@@ -1313,3 +1313,4 @@
 - style(auth): improve error handling (2025-10-26T22:15:09.012283)
 - fix(battery-model): update readme (2025-10-27T02:15:09.012283)
 - docs(db): fix typo (2025-10-27T06:38:09.012283)
+- docs(dashboard): fix typo (2025-10-27T10:13:09.012283)
