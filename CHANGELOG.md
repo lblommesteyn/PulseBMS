@@ -1316,3 +1316,4 @@
 - docs(dashboard): fix typo (2025-10-27T10:13:09.012283)
 - style(mpc): improve performance (2025-10-27T12:41:09.012283)
 - fix(physics): add new feature (2025-10-27T18:33:09.012283)
+- perf(mqtt): update readme (2025-10-27T19:38:09.012283)
