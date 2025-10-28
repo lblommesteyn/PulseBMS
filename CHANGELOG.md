@@ -1321,3 +1321,4 @@
 - style(config): add new feature (2025-10-28T03:22:09.012283)
 - perf(rl-policy): add logging (2025-10-28T10:53:09.012283)
 - perf(websocket): add new feature (2025-10-28T17:07:09.012283)
+- test(edge-device): improve error handling (2025-10-28T19:04:09.012283)
