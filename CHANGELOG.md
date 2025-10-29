@@ -1326,3 +1326,4 @@
 - perf(mqtt): update metrics (2025-10-29T08:27:09.012283)
 - docs(dashboard): update documentation (2025-10-29T09:20:09.012283)
 - feat(deps): update readme (2025-10-29T11:14:09.012283)
+- fix(dashboard): add unit tests (2025-10-29T18:13:09.012283)
