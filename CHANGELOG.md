@@ -1324,3 +1324,4 @@
 - test(edge-device): improve error handling (2025-10-28T19:04:09.012283)
 - fix(deps): update dependencies (2025-10-29T02:53:09.012283)
 - perf(mqtt): update metrics (2025-10-29T08:27:09.012283)
+- docs(dashboard): update documentation (2025-10-29T09:20:09.012283)
