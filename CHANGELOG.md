@@ -1329,3 +1329,4 @@
 - fix(dashboard): add unit tests (2025-10-29T18:13:09.012283)
 - test(dashboard): optimize database queries (2025-10-29T23:30:09.012283)
 - style(coordinator): add new feature (2025-10-30T05:18:09.012283)
+- docs(edge-device): update configuration (2025-10-30T11:11:09.012283)
