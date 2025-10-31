@@ -1331,3 +1331,4 @@
 - style(coordinator): add new feature (2025-10-30T05:18:09.012283)
 - docs(edge-device): update configuration (2025-10-30T11:11:09.012283)
 - fix(ci): improve performance (2025-10-30T14:51:09.012283)
+- refactor(docker): update documentation (2025-10-30T20:28:09.012283)
