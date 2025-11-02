@@ -1345,3 +1345,4 @@
 - fix(mpc): optimize database queries (2025-11-01T19:00:09.012283)
 - feat(ci): remove unused code (2025-11-01T21:48:09.012283)
 - refactor(dashboard): add comments (2025-11-02T04:27:09.012283)
+- test(edge-device): add unit tests (2025-11-02T10:08:09.012283)
