@@ -1357,3 +1357,4 @@
 - chore(docker): update metrics (2025-11-03T22:53:09.012283)
 - chore(db): remove unused code (2025-11-04T03:34:09.012283)
 - test(config): update metrics (2025-11-04T06:47:09.012283)
+- fix(docker): update documentation (2025-11-04T13:05:09.012283)
