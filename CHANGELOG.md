@@ -1361,3 +1361,4 @@
 - style(battery-model): format files (2025-11-04T17:21:09.012283)
 - feat(docker): add new feature (2025-11-04T18:41:09.012283)
 - refactor(physics): add unit tests (2025-11-04T21:56:09.012283)
+- chore(docker): fix security vulnerability (2025-11-04T23:26:09.012283)
