@@ -1381,3 +1381,4 @@
 - test(mpc): update metrics (2025-11-08T05:41:09.012283)
 - refactor(battery-model): cleanup code (2025-11-08T06:23:09.012283)
 - docs(db): update metrics (2025-11-08T10:31:09.012283)
+- refactor(mqtt): fix race condition (2025-11-08T14:56:09.012283)
