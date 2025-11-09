@@ -1383,3 +1383,4 @@
 - docs(db): update metrics (2025-11-08T10:31:09.012283)
 - refactor(mqtt): fix race condition (2025-11-08T14:56:09.012283)
 - test(config): fix typo (2025-11-08T18:53:09.012283)
+- refactor(mpc): remove unused code (2025-11-08T21:37:09.012283)
