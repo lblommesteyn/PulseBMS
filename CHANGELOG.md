@@ -1399,3 +1399,4 @@
 - fix(physics): update configuration (2025-11-10T21:36:09.012283)
 - fix(mpc): optimize database queries (2025-11-11T04:36:09.012283)
 - docs(db): fix typo (2025-11-11T12:13:09.012283)
+- chore(docker): improve error handling (2025-11-11T13:31:09.012283)
