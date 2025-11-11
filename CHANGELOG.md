@@ -1397,3 +1397,4 @@
 - style(docker): optimize database queries (2025-11-10T11:10:09.012283)
 - chore(config): update metrics (2025-11-10T13:44:09.012283)
 - fix(physics): update configuration (2025-11-10T21:36:09.012283)
+- fix(mpc): optimize database queries (2025-11-11T04:36:09.012283)
