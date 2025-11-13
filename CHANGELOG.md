@@ -1412,3 +1412,4 @@
 - fix(rl-policy): improve error handling (2025-11-13T05:47:09.012283)
 - style(api): format files (2025-11-13T06:45:09.012283)
 - refactor(deps): update readme (2025-11-13T09:36:09.012283)
+- feat(auth): update documentation (2025-11-13T15:26:09.012283)
