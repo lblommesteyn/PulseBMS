@@ -1405,3 +1405,4 @@
 - test(auth): fix race condition (2025-11-12T07:57:09.012283)
 - fix(coordinator): update readme (2025-11-12T14:58:09.012283)
 - fix(websocket): add comments (2025-11-12T17:15:09.012283)
+- test(edge-device): add unit tests (2025-11-12T19:05:09.012283)
