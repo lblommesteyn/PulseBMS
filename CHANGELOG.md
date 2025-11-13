@@ -1409,3 +1409,4 @@
 - perf(api): optimize database queries (2025-11-12T21:46:09.012283)
 - style(physics): add new feature (2025-11-13T00:16:09.012283)
 - perf(websocket): improve performance (2025-11-13T01:03:09.012283)
+- fix(rl-policy): improve error handling (2025-11-13T05:47:09.012283)
