@@ -1415,3 +1415,4 @@
 - feat(auth): update documentation (2025-11-13T15:26:09.012283)
 - style(physics): initial commit (2025-11-13T21:10:09.012283)
 - chore(edge-device): add logging (2025-11-14T03:22:09.012283)
+- fix(battery-model): add unit tests (2025-11-14T05:22:09.012283)
