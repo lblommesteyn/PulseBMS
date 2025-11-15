@@ -1422,3 +1422,4 @@
 - refactor(auth): fix typo (2025-11-14T16:02:09.012283)
 - feat(coordinator): format files (2025-11-14T18:38:09.012283)
 - chore(websocket): add logging (2025-11-14T20:08:09.012283)
+- perf(api): optimize database queries (2025-11-15T03:34:09.012283)
