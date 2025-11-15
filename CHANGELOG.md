@@ -1421,3 +1421,4 @@
 - refactor(rl-policy): format files (2025-11-14T15:16:09.012283)
 - refactor(auth): fix typo (2025-11-14T16:02:09.012283)
 - feat(coordinator): format files (2025-11-14T18:38:09.012283)
+- chore(websocket): add logging (2025-11-14T20:08:09.012283)
