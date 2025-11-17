@@ -1434,3 +1434,4 @@
 - feat(edge-device): add logging (2025-11-17T02:25:09.012283)
 - feat(coordinator): update dependencies (2025-11-17T09:05:09.012283)
 - test(websocket): update metrics (2025-11-17T10:12:09.012283)
+- docs(dashboard): fix typo (2025-11-17T10:49:09.012283)
