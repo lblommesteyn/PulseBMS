@@ -1437,3 +1437,4 @@
 - docs(dashboard): fix typo (2025-11-17T10:49:09.012283)
 - docs(dashboard): add comments (2025-11-17T12:40:09.012283)
 - feat(edge-device): add new feature (2025-11-17T17:56:09.012283)
+- chore(config): optimize database queries (2025-11-17T18:53:09.012283)
