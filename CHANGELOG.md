@@ -1435,3 +1435,4 @@
 - feat(coordinator): update dependencies (2025-11-17T09:05:09.012283)
 - test(websocket): update metrics (2025-11-17T10:12:09.012283)
 - docs(dashboard): fix typo (2025-11-17T10:49:09.012283)
+- docs(dashboard): add comments (2025-11-17T12:40:09.012283)
