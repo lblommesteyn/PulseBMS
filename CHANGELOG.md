@@ -1431,3 +1431,4 @@
 - fix(rl-policy): improve performance (2025-11-16T10:41:09.012283)
 - refactor(coordinator): optimize database queries (2025-11-16T12:42:09.012283)
 - refactor(auth): remove unused code (2025-11-16T18:55:09.012283)
+- feat(edge-device): add logging (2025-11-17T02:25:09.012283)
