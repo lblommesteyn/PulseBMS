@@ -1445,3 +1445,4 @@
 - perf(edge-device): add logging (2025-11-18T11:30:09.012283)
 - docs(ci): improve error handling (2025-11-18T13:45:09.012283)
 - fix(websocket): fix race condition (2025-11-18T17:57:09.012283)
+- docs(mqtt): add comments (2025-11-19T01:08:09.012283)
