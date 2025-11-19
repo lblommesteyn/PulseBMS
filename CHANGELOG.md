@@ -1447,3 +1447,4 @@
 - fix(websocket): fix race condition (2025-11-18T17:57:09.012283)
 - docs(mqtt): add comments (2025-11-19T01:08:09.012283)
 - feat(api): improve error handling (2025-11-19T06:37:09.012283)
+- fix(mqtt): improve error handling (2025-11-19T10:54:09.012283)
