@@ -1450,3 +1450,4 @@
 - fix(mqtt): improve error handling (2025-11-19T10:54:09.012283)
 - chore(rl-policy): remove unused code (2025-11-19T16:25:09.012283)
 - feat(websocket): cleanup code (2025-11-19T17:37:09.012283)
+- chore(deps): remove unused code (2025-11-19T19:40:09.012283)
