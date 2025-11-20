@@ -1452,3 +1452,4 @@
 - feat(websocket): cleanup code (2025-11-19T17:37:09.012283)
 - chore(deps): remove unused code (2025-11-19T19:40:09.012283)
 - docs(rl-policy): add unit tests (2025-11-19T22:02:09.012283)
+- chore(battery-model): update readme (2025-11-20T00:56:09.012283)
