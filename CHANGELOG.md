@@ -1459,3 +1459,4 @@
 - perf(auth): fix typo (2025-11-20T13:31:09.012283)
 - fix(rl-policy): improve performance (2025-11-20T17:58:09.012283)
 - feat(rl-policy): initial commit (2025-11-21T00:16:09.012283)
+- feat(edge-device): fix security vulnerability (2025-11-21T07:09:09.012283)
