@@ -1464,3 +1464,4 @@
 - refactor(mqtt): fix typo (2025-11-21T19:10:09.012283)
 - test(dashboard): improve error handling (2025-11-22T01:25:09.012283)
 - chore(battery-model): remove unused code (2025-11-22T04:32:09.012283)
+- feat(coordinator): add comments (2025-11-22T08:41:09.012283)
