@@ -1466,3 +1466,4 @@
 - chore(battery-model): remove unused code (2025-11-22T04:32:09.012283)
 - feat(coordinator): add comments (2025-11-22T08:41:09.012283)
 - feat(docker): update readme (2025-11-22T09:27:09.012283)
+- test(websocket): improve error handling (2025-11-22T15:50:09.012283)
