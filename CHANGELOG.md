@@ -1462,3 +1462,4 @@
 - feat(edge-device): fix security vulnerability (2025-11-21T07:09:09.012283)
 - chore(coordinator): improve performance (2025-11-21T11:52:09.012283)
 - refactor(mqtt): fix typo (2025-11-21T19:10:09.012283)
+- test(dashboard): improve error handling (2025-11-22T01:25:09.012283)
