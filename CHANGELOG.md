@@ -1470,3 +1470,4 @@
 - feat(api): fix race condition (2025-11-22T23:06:09.012283)
 - perf(deps): fix typo (2025-11-23T03:38:09.012283)
 - refactor(websocket): remove unused code (2025-11-23T06:40:09.012283)
+- test(ci): remove unused code (2025-11-23T09:08:09.012283)
