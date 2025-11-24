@@ -1474,3 +1474,4 @@
 - perf(mqtt): add new feature (2025-11-23T14:10:09.012283)
 - refactor(websocket): remove unused code (2025-11-23T20:57:09.012283)
 - docs(deps): remove unused code (2025-11-23T23:56:09.012283)
+- chore(coordinator): fix security vulnerability (2025-11-24T00:39:09.012283)
