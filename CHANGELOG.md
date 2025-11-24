@@ -1476,3 +1476,4 @@
 - docs(deps): remove unused code (2025-11-23T23:56:09.012283)
 - chore(coordinator): fix security vulnerability (2025-11-24T00:39:09.012283)
 - refactor(rl-policy): add comments (2025-11-24T02:54:09.012283)
+- fix(mpc): fix security vulnerability (2025-11-24T10:49:09.012283)
