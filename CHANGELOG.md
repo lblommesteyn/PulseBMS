@@ -1482,3 +1482,4 @@
 - style(docker): update configuration (2025-11-25T03:32:09.012283)
 - perf(db): refactor codebase (2025-11-25T09:02:09.012283)
 - style(dashboard): update readme (2025-11-25T11:58:09.012283)
+- perf(mqtt): optimize database queries (2025-11-25T14:00:09.012283)
