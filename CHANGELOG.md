@@ -1483,3 +1483,4 @@
 - perf(db): refactor codebase (2025-11-25T09:02:09.012283)
 - style(dashboard): update readme (2025-11-25T11:58:09.012283)
 - perf(mqtt): optimize database queries (2025-11-25T14:00:09.012283)
+- docs(mqtt): format files (2025-11-25T15:17:09.012283)
