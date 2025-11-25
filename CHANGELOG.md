@@ -1478,3 +1478,4 @@
 - refactor(rl-policy): add comments (2025-11-24T02:54:09.012283)
 - fix(mpc): fix security vulnerability (2025-11-24T10:49:09.012283)
 - fix(rl-policy): initial commit (2025-11-24T14:44:09.012283)
+- feat(edge-device): update readme (2025-11-24T21:31:09.012283)
