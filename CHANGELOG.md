@@ -1493,3 +1493,4 @@
 - docs(websocket): update dependencies (2025-11-27T09:34:09.012283)
 - fix(mpc): add comments (2025-11-27T13:25:09.012283)
 - feat(deps): update metrics (2025-11-27T20:01:09.012283)
+- style(battery-model): update readme (2025-11-27T21:31:09.012283)
