@@ -1495,3 +1495,4 @@
 - feat(deps): update metrics (2025-11-27T20:01:09.012283)
 - style(battery-model): update readme (2025-11-27T21:31:09.012283)
 - refactor(physics): improve error handling (2025-11-27T22:06:09.012283)
+- fix(websocket): remove unused code (2025-11-28T04:04:09.012283)
