@@ -1497,3 +1497,4 @@
 - refactor(physics): improve error handling (2025-11-27T22:06:09.012283)
 - fix(websocket): remove unused code (2025-11-28T04:04:09.012283)
 - fix(edge-device): remove unused code (2025-11-28T07:15:09.012283)
+- style(auth): remove unused code (2025-11-28T10:05:09.012283)
