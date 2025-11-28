@@ -1498,3 +1498,4 @@
 - fix(websocket): remove unused code (2025-11-28T04:04:09.012283)
 - fix(edge-device): remove unused code (2025-11-28T07:15:09.012283)
 - style(auth): remove unused code (2025-11-28T10:05:09.012283)
+- refactor(docker): improve error handling (2025-11-28T17:42:09.012283)
