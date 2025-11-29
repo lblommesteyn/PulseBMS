@@ -1501,3 +1501,4 @@
 - refactor(docker): improve error handling (2025-11-28T17:42:09.012283)
 - style(db): update dependencies (2025-11-28T19:33:09.012283)
 - docs(config): update readme (2025-11-29T00:58:09.012283)
+- feat(mqtt): cleanup code (2025-11-29T02:33:09.012283)
