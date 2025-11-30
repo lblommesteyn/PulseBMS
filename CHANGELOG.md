@@ -1509,3 +1509,4 @@
 - refactor(config): update dependencies (2025-11-30T03:21:09.012283)
 - docs(mqtt): update configuration (2025-11-30T09:05:09.012283)
 - refactor(mqtt): update documentation (2025-11-30T11:04:09.012283)
+- style(dashboard): fix race condition (2025-11-30T12:13:09.012283)
