@@ -1508,3 +1508,4 @@
 - perf(db): update documentation (2025-11-29T19:54:09.012283)
 - refactor(config): update dependencies (2025-11-30T03:21:09.012283)
 - docs(mqtt): update configuration (2025-11-30T09:05:09.012283)
+- refactor(mqtt): update documentation (2025-11-30T11:04:09.012283)
