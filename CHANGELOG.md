@@ -1507,3 +1507,4 @@
 - fix(docker): update readme (2025-11-29T12:57:09.012283)
 - perf(db): update documentation (2025-11-29T19:54:09.012283)
 - refactor(config): update dependencies (2025-11-30T03:21:09.012283)
+- docs(mqtt): update configuration (2025-11-30T09:05:09.012283)
