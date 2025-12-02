@@ -1517,3 +1517,4 @@
 - chore(config): update metrics (2025-12-01T08:15:09.012283)
 - perf(battery-model): fix typo (2025-12-01T09:53:09.012283)
 - style(mpc): add unit tests (2025-12-01T16:10:09.012283)
+- chore(websocket): improve error handling (2025-12-01T19:07:09.012283)
