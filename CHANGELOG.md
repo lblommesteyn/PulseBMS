@@ -1538,3 +1538,4 @@
 - chore(edge-device): fix typo (2025-12-05T10:51:09.012283)
 - test(ci): cleanup code (2025-12-05T17:05:09.012283)
 - test(websocket): remove unused code (2025-12-05T17:42:09.012283)
+- perf(api): improve performance (2025-12-05T22:08:09.012283)
