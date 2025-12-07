@@ -1543,3 +1543,4 @@
 - feat(edge-device): fix security vulnerability (2025-12-06T05:37:09.012283)
 - feat(websocket): improve performance (2025-12-06T12:44:09.012283)
 - style(api): improve performance (2025-12-06T16:23:09.012283)
+- chore(edge-device): improve error handling (2025-12-06T20:45:09.012283)
