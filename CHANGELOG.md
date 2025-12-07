@@ -1547,3 +1547,4 @@
 - perf(physics): improve performance (2025-12-07T04:45:09.012283)
 - feat(battery-model): fix race condition (2025-12-07T07:35:09.012283)
 - style(db): improve error handling (2025-12-07T08:17:09.012283)
+- refactor(mpc): cleanup code (2025-12-07T16:01:09.012283)
