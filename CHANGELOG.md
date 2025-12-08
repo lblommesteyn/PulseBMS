@@ -1551,3 +1551,4 @@
 - feat(api): remove unused code (2025-12-07T18:17:09.012283)
 - perf(docker): optimize database queries (2025-12-07T19:20:09.012283)
 - test(auth): remove unused code (2025-12-07T22:06:09.012283)
+- style(mpc): improve error handling (2025-12-08T04:25:09.012283)
