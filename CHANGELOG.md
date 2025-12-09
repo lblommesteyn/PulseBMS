@@ -1555,3 +1555,4 @@
 - docs(api): improve error handling (2025-12-08T08:53:09.012283)
 - perf(edge-device): fix race condition (2025-12-08T14:54:09.012283)
 - docs(rl-policy): add new feature (2025-12-08T21:02:09.012283)
+- fix(dashboard): improve performance (2025-12-09T02:22:09.012283)
