@@ -1562,3 +1562,4 @@
 - chore(rl-policy): fix typo (2025-12-09T15:38:09.012283)
 - perf(api): update metrics (2025-12-09T18:23:09.012283)
 - test(deps): format files (2025-12-09T23:40:09.012283)
+- feat(dashboard): update documentation (2025-12-10T06:37:09.012283)
