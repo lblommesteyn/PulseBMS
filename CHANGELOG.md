@@ -1574,3 +1574,4 @@
 - docs(mpc): improve error handling (2025-12-12T01:25:09.012283)
 - fix(dashboard): update documentation (2025-12-12T09:05:09.012283)
 - chore(api): update dependencies (2025-12-12T14:02:09.012283)
+- perf(auth): fix security vulnerability (2025-12-12T16:51:09.012283)
