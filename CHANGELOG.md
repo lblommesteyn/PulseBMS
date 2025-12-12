@@ -1572,3 +1572,4 @@
 - style(ci): initial commit (2025-12-11T18:28:09.012283)
 - test(auth): refactor codebase (2025-12-11T20:05:09.012283)
 - docs(mpc): improve error handling (2025-12-12T01:25:09.012283)
+- fix(dashboard): update documentation (2025-12-12T09:05:09.012283)
