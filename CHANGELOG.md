@@ -1578,3 +1578,4 @@
 - perf(rl-policy): refactor codebase (2025-12-12T19:17:09.012283)
 - test(mqtt): add comments (2025-12-13T00:24:09.012283)
 - feat(config): fix race condition (2025-12-13T04:29:09.012283)
+- feat(websocket): improve error handling (2025-12-13T12:24:09.012283)
