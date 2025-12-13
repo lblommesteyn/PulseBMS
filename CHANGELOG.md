@@ -1576,3 +1576,4 @@
 - chore(api): update dependencies (2025-12-12T14:02:09.012283)
 - perf(auth): fix security vulnerability (2025-12-12T16:51:09.012283)
 - perf(rl-policy): refactor codebase (2025-12-12T19:17:09.012283)
+- test(mqtt): add comments (2025-12-13T00:24:09.012283)
