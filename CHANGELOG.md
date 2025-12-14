@@ -1581,3 +1581,4 @@
 - feat(websocket): improve error handling (2025-12-13T12:24:09.012283)
 - perf(coordinator): refactor codebase (2025-12-13T17:06:09.012283)
 - test(ci): improve performance (2025-12-13T22:35:09.012283)
+- docs(api): fix typo (2025-12-14T02:48:09.012283)
