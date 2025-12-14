@@ -1583,3 +1583,4 @@
 - test(ci): improve performance (2025-12-13T22:35:09.012283)
 - docs(api): fix typo (2025-12-14T02:48:09.012283)
 - refactor(dashboard): improve performance (2025-12-14T08:14:09.012283)
+- chore(dashboard): add unit tests (2025-12-14T16:09:09.012283)
