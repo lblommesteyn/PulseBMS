@@ -1588,3 +1588,4 @@
 - perf(rl-policy): add unit tests (2025-12-14T22:11:09.012283)
 - test(ci): improve performance (2025-12-15T05:53:09.012283)
 - chore(rl-policy): fix typo (2025-12-15T12:47:09.012283)
+- refactor(websocket): update configuration (2025-12-15T14:19:09.012283)
