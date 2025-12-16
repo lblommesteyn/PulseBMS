@@ -1590,3 +1590,4 @@
 - chore(rl-policy): fix typo (2025-12-15T12:47:09.012283)
 - refactor(websocket): update configuration (2025-12-15T14:19:09.012283)
 - style(ci): improve performance (2025-12-15T20:40:09.012283)
+- fix(config): refactor codebase (2025-12-15T22:56:09.012283)
