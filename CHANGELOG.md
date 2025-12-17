@@ -1596,3 +1596,4 @@
 - feat(auth): update configuration (2025-12-16T14:55:09.012283)
 - refactor(edge-device): update readme (2025-12-16T21:04:09.012283)
 - refactor(auth): format files (2025-12-16T21:50:09.012283)
+- feat(battery-model): refactor codebase (2025-12-17T04:57:09.012283)
