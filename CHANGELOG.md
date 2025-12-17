@@ -1594,3 +1594,4 @@
 - docs(api): initial commit (2025-12-16T05:38:09.012283)
 - docs(config): refactor codebase (2025-12-16T12:53:09.012283)
 - feat(auth): update configuration (2025-12-16T14:55:09.012283)
+- refactor(edge-device): update readme (2025-12-16T21:04:09.012283)
