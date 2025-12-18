@@ -1604,3 +1604,4 @@
 - feat(physics): improve performance (2025-12-17T19:28:09.012283)
 - chore(mpc): remove unused code (2025-12-18T02:30:09.012283)
 - feat(config): fix race condition (2025-12-18T03:29:09.012283)
+- refactor(battery-model): add logging (2025-12-18T04:31:09.012283)
