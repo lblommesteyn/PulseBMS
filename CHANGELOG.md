@@ -1603,3 +1603,4 @@
 - perf(db): update documentation (2025-12-17T12:59:09.012283)
 - feat(physics): improve performance (2025-12-17T19:28:09.012283)
 - chore(mpc): remove unused code (2025-12-18T02:30:09.012283)
+- feat(config): fix race condition (2025-12-18T03:29:09.012283)
