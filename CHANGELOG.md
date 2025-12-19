@@ -1609,3 +1609,4 @@
 - style(coordinator): improve error handling (2025-12-18T15:59:09.012283)
 - docs(rl-policy): add logging (2025-12-18T19:24:09.012283)
 - style(config): update readme (2025-12-18T23:22:09.012283)
+- fix(db): fix race condition (2025-12-19T02:03:09.012283)
