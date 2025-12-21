@@ -1620,3 +1620,4 @@
 - fix(coordinator): initial commit (2025-12-20T07:17:09.012283)
 - style(edge-device): update dependencies (2025-12-20T08:44:09.012283)
 - test(mpc): fix security vulnerability (2025-12-20T12:19:09.012283)
+- refactor(websocket): update metrics (2025-12-20T20:13:09.012283)
