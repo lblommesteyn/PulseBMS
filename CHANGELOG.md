@@ -1621,3 +1621,4 @@
 - style(edge-device): update dependencies (2025-12-20T08:44:09.012283)
 - test(mpc): fix security vulnerability (2025-12-20T12:19:09.012283)
 - refactor(websocket): update metrics (2025-12-20T20:13:09.012283)
+- refactor(dashboard): update readme (2025-12-20T22:37:09.012283)
