@@ -1626,3 +1626,4 @@
 - style(battery-model): add new feature (2025-12-21T05:51:09.012283)
 - style(dashboard): add comments (2025-12-21T08:01:09.012283)
 - fix(coordinator): add new feature (2025-12-21T13:39:09.012283)
+- feat(mpc): add comments (2025-12-21T14:29:09.012283)
