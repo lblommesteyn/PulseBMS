@@ -1650,3 +1650,4 @@
 - perf(coordinator): add comments (2025-12-25T05:39:09.012283)
 - chore(rl-policy): add unit tests (2025-12-25T10:34:09.012283)
 - style(battery-model): format files (2025-12-25T16:42:09.012283)
+- docs(battery-model): remove unused code (2025-12-25T21:41:09.012283)
