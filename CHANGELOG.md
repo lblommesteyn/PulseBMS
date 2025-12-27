@@ -1662,3 +1662,4 @@
 - docs(mqtt): fix typo (2025-12-27T10:13:09.012283)
 - feat(battery-model): update documentation (2025-12-27T12:23:09.012283)
 - fix(ci): add unit tests (2025-12-27T15:46:09.012283)
+- chore(rl-policy): update configuration (2025-12-27T18:04:09.012283)
