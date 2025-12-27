@@ -1660,3 +1660,4 @@
 - refactor(physics): add logging (2025-12-26T19:33:09.012283)
 - refactor(battery-model): add logging (2025-12-27T03:23:09.012283)
 - docs(mqtt): fix typo (2025-12-27T10:13:09.012283)
+- feat(battery-model): update documentation (2025-12-27T12:23:09.012283)
