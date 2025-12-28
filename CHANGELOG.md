@@ -1663,3 +1663,4 @@
 - feat(battery-model): update documentation (2025-12-27T12:23:09.012283)
 - fix(ci): add unit tests (2025-12-27T15:46:09.012283)
 - chore(rl-policy): update configuration (2025-12-27T18:04:09.012283)
+- fix(dashboard): add new feature (2025-12-27T21:23:09.012283)
