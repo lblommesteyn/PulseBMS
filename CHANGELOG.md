@@ -1670,3 +1670,4 @@
 - fix(config): add unit tests (2025-12-28T16:05:09.012283)
 - feat(physics): optimize database queries (2025-12-28T21:04:09.012283)
 - refactor(mqtt): optimize database queries (2025-12-29T02:34:09.012283)
+- docs(mqtt): fix race condition (2025-12-29T10:20:09.012283)
