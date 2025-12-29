@@ -1671,3 +1671,4 @@
 - feat(physics): optimize database queries (2025-12-28T21:04:09.012283)
 - refactor(mqtt): optimize database queries (2025-12-29T02:34:09.012283)
 - docs(mqtt): fix race condition (2025-12-29T10:20:09.012283)
+- docs(mpc): update readme (2025-12-29T17:01:09.012283)
