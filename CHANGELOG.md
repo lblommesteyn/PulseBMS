@@ -1673,3 +1673,4 @@
 - docs(mqtt): fix race condition (2025-12-29T10:20:09.012283)
 - docs(mpc): update readme (2025-12-29T17:01:09.012283)
 - chore(db): update documentation (2025-12-29T20:53:09.012283)
+- chore(edge-device): fix security vulnerability (2025-12-30T04:27:09.012283)
