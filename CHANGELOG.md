@@ -1681,3 +1681,4 @@
 - perf(ci): cleanup code (2025-12-30T22:48:09.012283)
 - perf(websocket): update dependencies (2025-12-31T00:58:09.012283)
 - fix(auth): add logging (2025-12-31T08:07:09.012283)
+- chore(websocket): refactor codebase (2025-12-31T08:51:09.012283)
