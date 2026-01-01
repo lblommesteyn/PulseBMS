@@ -1688,3 +1688,4 @@
 - fix(mpc): update documentation (2025-12-31T22:23:09.012283)
 - refactor(auth): optimize database queries (2026-01-01T03:45:09.012283)
 - chore(mpc): add unit tests (2026-01-01T08:29:09.012283)
+- style(mqtt): update configuration (2026-01-01T13:27:09.012283)
