@@ -1685,3 +1685,4 @@
 - chore(docker): update readme (2025-12-31T16:32:09.012283)
 - feat(physics): add logging (2025-12-31T17:33:09.012283)
 - refactor(edge-device): update configuration (2025-12-31T21:01:09.012283)
+- fix(mpc): update documentation (2025-12-31T22:23:09.012283)
