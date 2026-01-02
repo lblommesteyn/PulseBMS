@@ -1693,3 +1693,4 @@
 - test(battery-model): update metrics (2026-01-01T17:43:09.012283)
 - feat(mpc): update documentation (2026-01-01T21:54:09.012283)
 - style(config): update dependencies (2026-01-02T05:05:09.012283)
+- style(battery-model): update dependencies (2026-01-02T08:12:09.012283)
