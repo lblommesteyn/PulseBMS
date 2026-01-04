@@ -1700,3 +1700,4 @@
 - feat(config): format files (2026-01-03T07:46:09.012283)
 - fix(config): add comments (2026-01-03T13:34:09.012283)
 - docs(docker): format files (2026-01-03T16:25:09.012283)
+- fix(mpc): add unit tests (2026-01-03T22:05:09.012283)
