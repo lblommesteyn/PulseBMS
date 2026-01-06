@@ -1712,3 +1712,4 @@
 - fix(deps): update configuration (2026-01-05T14:19:09.012283)
 - fix(db): update readme (2026-01-05T20:09:09.012283)
 - refactor(api): add comments (2026-01-05T22:36:09.012283)
+- refactor(mqtt): add logging (2026-01-06T00:31:09.012283)
