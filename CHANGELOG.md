@@ -1722,3 +1722,4 @@
 - chore(api): cleanup code (2026-01-07T12:04:09.012283)
 - feat(deps): update documentation (2026-01-07T17:51:09.012283)
 - refactor(battery-model): update metrics (2026-01-07T22:52:09.012283)
+- test(battery-model): add logging (2026-01-08T00:10:09.012283)
