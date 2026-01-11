@@ -1739,3 +1739,4 @@
 - refactor(docker): initial commit (2026-01-11T03:02:09.012283)
 - test(websocket): update readme (2026-01-11T09:21:09.012283)
 - perf(auth): fix security vulnerability (2026-01-11T10:59:09.012283)
+- docs(mqtt): update documentation (2026-01-11T11:38:09.012283)
