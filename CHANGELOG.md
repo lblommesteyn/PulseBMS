@@ -1761,3 +1761,4 @@
 - test(mqtt): update documentation (2026-01-15T01:49:09.012283)
 - perf(coordinator): update documentation (2026-01-15T07:03:09.012283)
 - test(dashboard): add new feature (2026-01-15T12:08:09.012283)
+- style(docker): update configuration (2026-01-15T15:03:09.012283)
