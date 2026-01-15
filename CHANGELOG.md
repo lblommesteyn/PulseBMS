@@ -1758,3 +1758,4 @@
 - perf(auth): update documentation (2026-01-14T11:08:09.012283)
 - refactor(deps): update metrics (2026-01-14T11:41:09.012283)
 - test(websocket): add unit tests (2026-01-14T19:26:09.012283)
+- test(mqtt): update documentation (2026-01-15T01:49:09.012283)
