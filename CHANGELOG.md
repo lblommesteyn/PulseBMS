@@ -1779,3 +1779,4 @@
 - feat(dashboard): format files (2026-01-18T14:52:09.012283)
 - style(physics): update dependencies (2026-01-18T17:17:09.012283)
 - style(coordinator): update documentation (2026-01-18T18:03:09.012283)
+- feat(mpc): update readme (2026-01-18T20:44:09.012283)
