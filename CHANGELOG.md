@@ -1825,3 +1825,4 @@
 - refactor(docker): update dependencies (2026-01-20T17:31:36.151217)
 - chore(coordinator): improve error handling (2026-01-20T16:57:36.491610)
 - feat(rl-policy): fix security vulnerability (2026-01-20T16:56:36.805508)
+- fix(edge-device): fix race condition (2026-01-20T17:24:37.104027)
