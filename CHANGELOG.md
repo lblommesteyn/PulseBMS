@@ -1823,3 +1823,4 @@
 - test(coordinator): update readme (2026-01-20T16:52:35.531150)
 - chore(ci): update metrics (2026-01-20T17:08:35.823654)
 - refactor(docker): update dependencies (2026-01-20T17:31:36.151217)
+- chore(coordinator): improve error handling (2026-01-20T16:57:36.491610)
