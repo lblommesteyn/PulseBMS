@@ -1820,3 +1820,4 @@
 - perf(battery-model): add logging (2026-01-20T16:49:34.632662)
 - perf(websocket): fix security vulnerability (2026-01-20T16:39:34.918212)
 - test(websocket): refactor codebase (2026-01-20T17:23:35.230653)
+- test(coordinator): update readme (2026-01-20T16:52:35.531150)
