@@ -1790,3 +1790,4 @@
 - perf(dashboard): fix typo (2026-01-20T13:21:09.012283)
 - feat(physics): update dependencies (2026-01-20T13:51:09.012283)
 - docs(mpc): update metrics (2026-01-20T16:37:26.284874)
+- style(websocket): fix security vulnerability (2026-01-20T16:52:26.601109)
