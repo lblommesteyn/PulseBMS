@@ -1804,3 +1804,4 @@
 - test(auth): update dependencies (2026-01-20T17:08:29.850185)
 - perf(mqtt): optimize database queries (2026-01-20T16:36:30.144823)
 - fix(auth): fix security vulnerability (2026-01-20T17:24:30.144823)
+- refactor(mqtt): remove unused code (2026-01-20T17:08:30.708321)
