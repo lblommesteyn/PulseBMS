@@ -1784,3 +1784,4 @@
 - test(mqtt): improve performance (2026-01-19T11:37:09.012283)
 - perf(auth): update configuration (2026-01-19T17:07:09.012283)
 - style(battery-model): update dependencies (2026-01-19T20:57:09.012283)
+- refactor(api): update configuration (2026-01-20T03:59:09.012283)
