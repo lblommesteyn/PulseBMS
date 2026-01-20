@@ -1806,3 +1806,4 @@
 - fix(auth): fix security vulnerability (2026-01-20T17:24:30.144823)
 - refactor(mqtt): remove unused code (2026-01-20T17:08:30.708321)
 - chore(db): fix security vulnerability (2026-01-20T16:35:30.997448)
+- fix(docker): add comments (2026-01-20T17:06:31.328668)
