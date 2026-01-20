@@ -1828,3 +1828,4 @@
 - fix(edge-device): fix race condition (2026-01-20T17:24:37.104027)
 - perf(config): improve error handling (2026-01-20T17:13:37.410420)
 - perf(battery-model): improve error handling (2026-01-20T16:47:37.730710)
+- feat(websocket): update configuration (2026-01-20T16:38:38.049178)
