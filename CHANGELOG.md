@@ -1799,3 +1799,4 @@
 - feat(ci): update metrics (2026-01-20T16:51:28.410454)
 - docs(edge-device): remove unused code (2026-01-20T16:50:28.703639)
 - chore(api): improve error handling (2026-01-20T17:12:28.996533)
+- fix(battery-model): update configuration (2026-01-20T16:42:29.281628)
