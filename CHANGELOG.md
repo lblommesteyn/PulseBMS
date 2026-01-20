@@ -1811,3 +1811,4 @@
 - perf(dashboard): initial commit (2026-01-20T16:38:31.908435)
 - style(config): add unit tests (2026-01-20T16:59:32.188246)
 - fix(auth): add new feature (2026-01-20T17:30:32.570612)
+- fix(mqtt): fix security vulnerability (2026-01-20T16:57:32.868861)
