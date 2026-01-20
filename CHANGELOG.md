@@ -1802,3 +1802,4 @@
 - fix(battery-model): update configuration (2026-01-20T16:42:29.281628)
 - fix(config): add logging (2026-01-20T17:05:29.560870)
 - test(auth): update dependencies (2026-01-20T17:08:29.850185)
+- perf(mqtt): optimize database queries (2026-01-20T16:36:30.144823)
