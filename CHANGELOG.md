@@ -1795,3 +1795,4 @@
 - perf(rl-policy): refactor codebase (2026-01-20T16:53:27.188903)
 - chore(physics): update metrics (2026-01-20T17:01:27.472669)
 - feat(coordinator): improve performance (2026-01-20T16:43:27.771788)
+- style(websocket): add unit tests (2026-01-20T17:09:28.107456)
