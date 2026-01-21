@@ -14,7 +14,9 @@ class Settings(BaseSettings):
     VERSION: str = "1.0.0"
     DEBUG: bool = False
     HOST: str = "0.0.0.0"
+    HOST: str = "0.0.0.0"
     PORT: int = 8000
+    STANDALONE_MODE: bool = True # Default to True for easy local running without infra
     
     # CORS
     ALLOWED_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:8080"]

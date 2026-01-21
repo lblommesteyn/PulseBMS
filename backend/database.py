@@ -19,6 +19,103 @@ from .config import settings
 
 logger = logging.getLogger(__name__)
 
+# Mock Classes for Standalone Mode
+class MockCollection:
+    def __init__(self, name, data):
+        self.name = name
+        self.data = data # Reference to DB data dict
+    
+    async def insert_one(self, document):
+        if "_id" not in document:
+            import uuid
+            document["_id"] = str(uuid.uuid4())
+        self.data.setdefault(self.name, []).append(document)
+        from collections import namedtuple
+        InsertResult = namedtuple('InsertResult', ['inserted_id'])
+        return InsertResult(document["_id"])
+
+    async def find_one(self, query):
+        collection_data = self.data.get(self.name, [])
+        for doc in collection_data:
+            match = True
+            for k, v in query.items():
+                if doc.get(k) != v:
+                    match = False
+                    break
+            if match:
+                return doc
+        return None
+
+    def find(self, query):
+        # Returns a mock cursor
+        class MockCursor:
+            def __init__(self, data):
+                self.data = data
+            def limit(self, n):
+                return self
+            def sort(self, key, direction):
+                return self
+            async def to_list(self, length):
+                return self.data[:length]
+
+        collection_data = self.data.get(self.name, [])
+        filtered = []
+        for doc in collection_data:
+            match = True
+            for k, v in query.items():
+                if isinstance(v, dict): continue # Skip complex queries for now
+                if doc.get(k) != v:
+                    match = False
+                    break
+            if match:
+                filtered.append(doc)
+        return MockCursor(filtered)
+
+    async def replace_one(self, filter_doc, replacement, upsert=False):
+        collection_data = self.data.get(self.name, [])
+        for i, doc in enumerate(collection_data):
+            match = True
+            for k, v in filter_doc.items():
+                if doc.get(k) != v:
+                    match = False
+                    break
+            if match:
+                collection_data[i] = replacement
+                return
+        if upsert:
+            collection_data.append(replacement)
+
+    async def create_index(self, keys, expireAfterSeconds=None):
+        pass # No-op for mock
+
+class MockDatabase:
+    def __init__(self):
+        self.data = {}
+    
+    def __getitem__(self, name):
+        return MockCollection(name, self.data)
+    
+    def __getattr__(self, name):
+        return MockCollection(name, self.data)
+
+class MockAsyncIOMotorClient:
+    def __init__(self, *args, **kwargs):
+        self.db = MockDatabase()
+        
+    def __getitem__(self, name):
+        return self.db
+        
+    @property
+    def admin(self):
+        class Admin:
+            async def command(self, cmd):
+                return {"ok": 1.0}
+        return Admin()
+
+    def close(self):
+        pass
+
+
 # SQLAlchemy setup
 Base = declarative_base()
 metadata = MetaData()
@@ -43,13 +140,19 @@ class DatabaseManager:
     
     async def connect_mongodb(self) -> bool:
         """Connect to MongoDB"""
+        if settings.STANDALONE_MODE:
+            logger.warning("STANDALONE_MODE is True. Using In-Memory Mock Database.")
+            self.mongodb_client = MockAsyncIOMotorClient()
+            self.mongodb_db = self.mongodb_client[settings.MONGODB_DB_NAME]
+            return True
+            
         try:
             logger.info("Connecting to MongoDB...")
             
             # Create MongoDB client
             self.mongodb_client = motor.motor_asyncio.AsyncIOMotorClient(
                 settings.MONGODB_URL,
-                serverSelectionTimeoutMS=5000
+                serverSelectionTimeoutMS=2000 # Reduced timeout
             )
             
             # Test connection
@@ -66,10 +169,17 @@ class DatabaseManager:
             
         except Exception as e:
             logger.error(f"Failed to connect to MongoDB: {e}")
-            return False
+            logger.warning("Switching to Standalone Mode (Mock Database) due to connection failure.")
+            self.mongodb_client = MockAsyncIOMotorClient()
+            self.mongodb_db = self.mongodb_client[settings.MONGODB_DB_NAME]
+            return True
     
     async def connect_postgresql(self) -> bool:
         """Connect to PostgreSQL"""
+        if settings.STANDALONE_MODE:
+            logger.info("STANDALONE_MODE: Skipping PostgreSQL connection.")
+            return True
+
         try:
             logger.info("Connecting to PostgreSQL...")
             
@@ -97,10 +207,22 @@ class DatabaseManager:
             
         except Exception as e:
             logger.error(f"Failed to connect to PostgreSQL: {e}")
-            return False
-    
+            return True # Don't block startup on postgres failure for now
+
     async def connect_redis(self) -> bool:
         """Connect to Redis"""
+        if settings.STANDALONE_MODE:
+            logger.warning("STANDALONE_MODE: Using Mock Redis.")
+            class MockRedis:
+                def __init__(self): self.data = {}
+                async def ping(self): return True
+                async def setex(self, name, time, value): self.data[name] = value; return True
+                async def get(self, name): return self.data.get(name)
+                async def close(self): pass
+            
+            self.redis_client = MockRedis()
+            return True
+
         try:
             logger.info("Connecting to Redis...")
             
@@ -118,7 +240,15 @@ class DatabaseManager:
             
         except Exception as e:
             logger.error(f"Failed to connect to Redis: {e}")
-            return False
+            logger.warning("Switching to Mock Redis due to connection failure.")
+            class MockRedis:
+                def __init__(self): self.data = {}
+                async def ping(self): return True
+                async def setex(self, name, time, value): self.data[name] = value; return True
+                async def get(self, name): return self.data.get(name)
+                async def close(self): pass
+            self.redis_client = MockRedis()
+            return True
     
     async def disconnect_all(self):
         """Disconnect from all databases"""

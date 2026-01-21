@@ -46,20 +46,6 @@ pip install -r requirements.txt
 # (Instructions vary by OS - see docs/SETUP.md)
 ```
 
-### Running the System
-
-```bash
-# 1. Start the backend API server
-cd backend && python main.py
-
-# 2. Start the digital twin service
-cd digital-twin && python digital_twin_service.py
-
-# 3. Start the coordinator service
-cd coordination && python coordinator_service.py
-
-# 4. Run edge device simulator
-cd edge && python edge_device.py
 
 # 5. Run integration tests
 cd testing && python integration_tests.py

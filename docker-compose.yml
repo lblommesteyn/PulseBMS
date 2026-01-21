@@ -1,0 +1,99 @@
+version: '3.8'
+
+services:
+  # ----------------------------
+  # Infrastructure Services
+  # ----------------------------
+  mongo:
+    image: mongo:latest
+    container_name: pulsebms-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - pulsebms-network
+
+  redis:
+    image: redis:alpine
+    container_name: pulsebms-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - pulsebms-network
+
+  mqtt:
+    image: eclipse-mosquitto:latest
+    container_name: pulsebms-mqtt
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - mosquitto_data:/mosquitto/data
+      - mosquitto_log:/mosquitto/log
+    networks:
+      - pulsebms-network
+
+  # ----------------------------
+  # Application Services
+  # ----------------------------
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: pulsebms-backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URL=mongodb://mongo:27017
+      - REDIS_URL=redis://redis:6379
+      - MQTT_BROKER_HOST=mqtt
+      - POSTGRES_URL=postgresql://postgres:password@localhost:5432/pulsebms
+      - STANDALONE_MODE=false
+    depends_on:
+      - mongo
+      - redis
+      - mqtt
+    networks:
+      - pulsebms-network
+
+  simulation:
+    build:
+      context: .
+      dockerfile: Dockerfile.simulation
+    container_name: pulsebms-simulation
+    restart: always
+    environment:
+      - MQTT_BROKER_HOST=mqtt
+    depends_on:
+      - mqtt
+      - backend
+    networks:
+      - pulsebms-network
+
+  dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    container_name: pulsebms-dashboard
+    restart: always
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - pulsebms-network
+
+networks:
+  pulsebms-network:
+    driver: bridge
+
+volumes:
+  mongo_data:
+  redis_data:
+  mosquitto_data:
+  mosquitto_log:
